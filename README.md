@@ -7,7 +7,7 @@ lading page:
 https://lading-page-sage-kappa.vercel.app
 
 login page:
-https://login-page-beryl-eta.vercel.app
+[https://login-page-beryl-eta.vercel.app](https://login-page-wxnb.vercel.app)
 
 resgister page:
 https://register-page-sable.vercel.app
