@@ -1,4 +1,6 @@
 # portfolio
+
+![Preview do projeto]([https://raw.githubusercontent.com/SEU-USUARIO/NOME-DO-REPO/main/img/preview.png](https://github.com/Kyotarou-dev12/portfolio/blob/main/img/PotifolioPreview.PNG?raw=true))
 Meu portfolio feito em html e css 
 
 acesse os sites vendo pelo proprio codigo em si e abrindo no navegador, ou acesse online:
