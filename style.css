@@ -1,176 +1,286 @@
+@import url(https://db.onlinewebfonts.com/c/86f81eed405e31caf488726b2b7760fd?family=Engrez+W03+Bold);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: sans-serif;}
 
-html{
-    scroll-behavior: smooth;
+        .menu-superior{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            
+            gap: 30px;
+            align-items: center;
+        }
     
-}
-body{
-    background-color: #0F0F0F;
-    font-family: sans-serif;
-    
-}
+        .produto{
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
+            align-items: center;
+            margin-top: 100px;
 
-#menu-lateral{
-    display: flex;
-    justify-content: center;
-    gap: 9rem;
-    margin-bottom: 14%;
-    align-items: center;
-    
-}
-
-#menu-lateral h1{
-
-    
-        margin-right: 2rem;
-    
-}
-#menu-lateral a{
-    text-decoration: none;
-    color: white;
-}
-
-#menu-lateral a:hover{
-    color: #FF073A;
-    transition: all 1s ease-out;
-}
-
-#menu-lateral a:focus{
-  color: #FF073A ;
-   scroll-behavior: smooth;
-}
-
-#menu-lateral h1{
-    color: white;
-    font-size: 24px;
-    
-}
-
-#home{
-   
-    color: white;
-    width: 800px;
+            gap: 40px;
+          
+        }
+        .fotos{
+            box-shadow: 0px 5px 10px gray;
+            border-radius: 15px;
+            width: 650px;
+           
+        }
+.fotos .foto{
+    min-width: 450px;
+    width: 600px;
+    max-width: 700px;
     height: auto;
-    margin-left: 600px;
-    text-align: left;
-  
+    
 }
-#home p:nth-child(1){
-    font-size: 38px;
-}
-
-#home h1{
-    font-size: 100px;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    color: #FF073A ;
-}
-
-#home h2{
-   font-size: 33px;
-
-}
-strong{
-    color: #FF073A ;
-}
-.comercial{
-    font-size: 22px;
-    margin-bottom: 400px;
-}
+      
+        .secundarias{
+            flex-wrap: wrap;
+         
+            text-align: center;
+        }
+         .comprar{
+            margin-top: 30px;
+        }
+        .compra{
+            text-decoration: none;
+            background-color: #22BF4C;
+            color: white;
+            padding: 20px;
+           border-radius: 10px;
+        }
 
 
-#sobre{
-    color: white;
-    background-color: #242629;
-    padding: 26px;
+      
+        .local{
+            flex-wrap: wrap;
+        }
+        
 
-   
-}
-#sobre h2{
-    font-size: 38px;
-}
+        .geral{
+             box-shadow: 0px 5px 10px gray;
+            border-radius: 15px;
+            
+            max-width: 100%;
+            width: 100%;
+           height: auto;
+           padding: 50px;
+        }
 
-#sobre p{
-    font-size: 26px;
-}
+        .adicionar{
+            display: flex;
+            margin-top: 24px;
+            gap: 20px;
+            align-items: center;
+           
+        }
+        .local{
+            color: gray;
+            
+           
+        }
+        
 
-.contato img{
-    width: 400px;
-    height: auto;
-   
-}
-.contato h2{
+        .carrinho{
+            background-color:#fad638;
+            color: white;
+            border-radius: 50px;
+            padding: 16px;
+            text-decoration: none;
+            
+        }
+        .contato{
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            background-color: #262626;
+            padding: 10px;
+        }
+        .descricao{
+           
+           margin: 70px;
+        }
+
+        .sobre p{
+            font-family: "Engrez W03 Bold", sans-serif;
+        }
+        .contato p, a{
+            font-family: "Engrez W03 Bold";
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .descricao h1{  
+            font-size: 30px;
+        }
+        .descricao p{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: "Engrez W03 Bold";
+            color: #262626;
+            text-align: left;
+        }
+        .descricao strong{
+            color: gray;
+            text-decoration: underline;
+        }
+          .secundarias img{
+            width: 130px;
+            height: auto;
+        }
+
+        .menu-superior img{
+           overflow: hidden;
+            width: 130px;
+            height: auto;
+        }
+        .menu-superior a{
+            text-decoration: none;
+            color: white;
+        }
+
+       
+
+        .sobre h1{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .sobre p{
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .sobre strong{
+            text-decoration: underline;
+        }
+        
+        .sobre h1, s, strong, .adicionar, .compra{
+            
+font-family: "Engrez W03 Bold", sans-serif;
+            font-weight: bold;
+        }
+
+
+        .carrinho:hover{
+            background-color: #e6be06;
+            transition: all 0.3s ease-out;
+        }
+         .menu-superior a:hover{
+            color: yellow;
+            
+        }
+          .compra:hover{
+            box-shadow: 5px 5px 10px #26d956;
+            transition: all 0.3s ease-out;
+        }
+
+        s, strong{
+            font-size: 20px;
+            
+        }
+          a{
+            font-size: 22px;
+            
+        }
+        
+        s{
+            color: gray;
+        }
+        input{
+            width: 60px;
+            font-size: 19px;
+            text-align: center;
+            
+            padding: 10px;
+        }
+        
+        ::placeholder{
+           color: black;
+           
+        }
+       
+           footer{
+        
+    background-color: #111;
+    color: #fff;
     text-align: center;
-}
-#sobre{
-    display: flex;
-}
+    padding: 10px 0;
+    font-size: 19px;
 
-#projetos{
-   
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
+
+        }
+        @media (max-width: 768px) {
+            .produto{
+                display: block;
+               width: 90%;
+            }
+
+            .descricao p{
+                font-size: 16px;
+            }
+
+            .descricao strong{
+                font-size: 18px;
+            }
+
+            .contato p{
+                font-size: 14px;
+            }
+            .contato strong{
+                font-size: 16px;
+            }
+
+            footer{
+                font-size: 16px;
+            }
+
+            .sobre h1{
+                font-size: 20px;
+            }
+            .sobre p{
+                font-size: 17px;
+            }
+            .carrinho{
+                padding: 13px;
+                box-shadow: 0px 0px 10px #e6be06;
+            }
+           .compra{
+            box-shadow: 0px 0px 10px #22BF4C;
+           }
+            .contato {
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
     text-align: center;
-}
+  }
+           input{
+            width: 50px;
+           }
 
-.projeto{
-    color: white;
-    border: 4px solid #383e47;
-    margin-left: 70px;
-    padding: 30px;
-    border-radius: 40px;
-    margin-top: 50px;
-    width: 500px;
-    text-align: left;
-    
-}
+           .fotos, .geral{
+            width: 90%;
+           }
 
-.projeto img{
-    border-radius: 50px;
-    margin-left: 50px;
-    
-}
-
-.codigo:hover{
-   background-color: #0098b3;
-   box-shadow: 0px 0px 10px #00c3e6;
-   transition:  all 0.3s ease-out;
-
-}
-.codigo{
-    background-color: #04D9FF;
-    color: black;
-    padding: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin-left: 20px;
-    width: 230px;
-    text-align: center;
-    margin-left: 120px;
-    
-   
-    
-}
-
-.projeto img{
-    width: 78%;
+           .menu-superior a{
+            font-size: 17px;
+            padding: 5px 10px;
+           }
+           .menu-superior{
+            flex-wrap: wrap;
+            padding: 10px;
+           }
+           .foto{
+            max-width: 100%;
+            height: auto;
+           }
+.secundarias img{
+    max-width: 90px;
     height: auto;
-    border-radius: 20px;
 }
-
-.projeto p{
-    font-size: 24px;
-}
-
-
-h2:nth-child(4){
-    color: white;
-    text-align: center;
-    margin-top: 55px;
-    
-}
-
-a{
-    text-decoration: none;
-}
+        }
