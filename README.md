@@ -14,5 +14,8 @@ login page:
 resgister page:
 https://register-page-sable.vercel.app
 
+Pagina de produto: https://product-page-psi-three.vercel.app
+
 potifolio:
 https://portfolio-m953.vercel.app
+
