@@ -172,11 +172,10 @@ strong{
 }
 
 
-h2:nth-child(4){
-    color: white;
-    text-align: center;
-    margin-top: 55px;
-    
+#projetos-titulo {
+  color: white;
+  text-align: center;
+  margin-top: 55px;
 }
 
 a{
@@ -195,7 +194,7 @@ a{
 
     .contato img{
       width: 200px;
-      margin: 0 auto !important;
+      margin: 0 auto;
       height: auto;
     }
 
@@ -225,7 +224,7 @@ a{
   }
 
   }
-  
+
 @media (max-width: 768px) {
   #home {
     padding: 20px;
@@ -245,32 +244,26 @@ a{
     margin-bottom: 80px;
   }
 
-  body {
-    overflow-x: hidden;
-  }
-}
-@media (max-width: 768px) {
-  #home {
-    padding: 20px;
-    text-align: center;
-  }
-
-  #sobre p{
-    font-size: 12px;
-  }
-    #sobre {
+  #sobre {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  #menu-lateral h2{
+
+  #sobre p {
+    font-size: 12px;
+  }
+
+  #menu-lateral h2 {
     font-size: 16px;
   }
 
-  .codigo{
+  .codigo {
     padding: 2px;
   }
 
-  
+  body {
+    overflow-x: hidden;
+  }
 }
 
