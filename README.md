@@ -5,9 +5,19 @@
 
 # Descrição
 
-Portfólio pessoal criado com HTML e CSS, com layout focado na apresentação clara dos meus projetos, habilidades e contato profissional. Projeto responsivo, visual limpo e ideal para recrutadores visualizarem meu trabalho de forma rápida e objetiva.
-Tecnologias: HTML5, CSS3
-Responsivo: Sim
+Portfólio pessoal desenvolvido em HTML e CSS, com foco em responsividade, apresentação limpa e navegação intuitiva. Apresenta os principais projetos e informações de contato.
+
+Recursos incluídos:
+
+📁 Sessão de projetos com links diretos
+
+📱 Design totalmente responsivo com flexbox
+
+🌙 Estilo escuro com foco em leitura
+
+🔗 Links sociais integrados
+
+📄 Código limpo e semântico
 
 acesse os sites vendo pelo proprio codigo em si e abrindo no navegador, ou acesse online:
 
